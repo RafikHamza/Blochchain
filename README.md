@@ -1,6 +1,11 @@
 # Blockchain Demo
 A web-based demonstration of blockchain concepts.
 
+
+https://tiu-blockchain.herokuapp.com/hash
+
+
+
 Because there are 16 possible characters in a hex value, each time you increment the difficulty
 by one you make the puzzle 16 times harder. In my testing, a difficulty of 6 requires a
 maximumNonce well over 500,000,000.
