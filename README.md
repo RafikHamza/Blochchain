@@ -11,7 +11,7 @@ by one you make the puzzle 16 times harder. In my testing, a difficulty of 6 req
 maximumNonce well over 500,000,000.
 
 If you adjust the difficulty above 4, blocks will show up as not mined because the demo data
-assumes 4 zeros for a signed block. For example, on the `http://localhost:3000/block` page
+assumes 4 zeros for a signed block. For example, on the `https://tiu-blockchain.herokuapp.com/block` page
 with a difficulty of 6, the first nonce that works is `8719932` yielding a hash of
 `000000669445c22167511857d8f3b822b331c3342f25dfdcb326e35c1a7aa267`. This gets out of hand fairly
 quickly though. Here's some time estimates at the various thresholds.
